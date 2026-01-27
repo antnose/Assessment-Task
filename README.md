@@ -1,16 +1,106 @@
-# React + Vite
+---
+# AI Support Dashboard – Frontend Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **AI Support Dashboard** built as a frontend assessment project. The application focuses on high-fidelity UI implementation, smooth routing, and interactive data visualization based on a provided Figma design.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**
+👉 [https://assessmenttaskfrombetopia.netlify.app](https://assessmenttaskfrombetopia.netlify.app)
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✅ Fully Responsive
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Optimized layouts for **mobile, tablet, and desktop**
+- Smooth scaling and spacing across breakpoints
 
-## Expanding the ESLint configuration
+### ✅ Dynamic Routing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Seamless navigation using **React Router**
+- Pages included:
+  - Dashboard
+  - Call Logs
+  - Appointments
+  - Settings
+
+### ✅ High-Fidelity UI
+
+- Pixel-accurate implementation from Figma
+- Advanced UI effects:
+  - Gradients
+  - Glassmorphism
+  - Custom glowing elements
+
+### ✅ Interactive Components
+
+- **Dashboard**
+  - Status cards
+  - Real-time style data visualization using Recharts
+
+- **Call Logs**
+  - Two-column layout
+  - Scrollable call list
+  - Transcript preview panel
+
+- **Appointments**
+  - Custom-styled data table
+  - Pagination support
+
+- **Settings**
+  - Tabbed interface
+  - Profile & Security sections
+
+---
+
+## 🛠️ Tech Stack
+
+| Category       | Technology          |
+| -------------- | ------------------- |
+| Framework      | React (Vite)        |
+| Styling        | Tailwind CSS        |
+| Routing        | React Router v7     |
+| Charts         | Recharts            |
+| Assets & Icons | Custom Figma Assets |
+
+## 💻 Getting Started
+
+This is a **frontend-only** project. No backend or database setup is required.
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/antnose/Assessment-Task.git
+cd Assessment-Task
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the Development Server
+
+```bash
+npm run dev
+```
+
+The app will be available at:
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 📌 Notes
+
+- This project focuses on **UI accuracy, responsiveness and component architecture**
+- All data used is **static / mock data**
+- Designed as a **frontend assessment & portfolio showcase**
+
+---
+
+## 🙌 Author
+
+**Md Ibrahim Sarkar**
+MERN Stack Developer
+
+---
