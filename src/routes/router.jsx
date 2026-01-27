@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import RootLayout from "../layouts/RootLayout";
 import CallLogsAndHistory from "../pages/CallLogsAndHistory";
 import Appointment from "../pages/Appointment";
+import Settings from "../pages/Settings";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
 
       {
         path: "/Settings",
-        Component: Home,
+        Component: Settings,
       },
     ],
   },
