@@ -11,6 +11,18 @@ const router = createBrowserRouter([
         index: true,
         Component: Home,
       },
+      {
+        path: "/calls",
+        Component: Home,
+      },
+      {
+        path: "/appointments",
+        Component: Home,
+      },
+      {
+        path: "/Settings",
+        Component: Home,
+      },
     ],
   },
 ]);

@@ -1,4 +1,6 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
+
+import logo from "../../assets/sidebar/logo.png";
 import dashboardIcon from "../../assets/sidebar/home.png";
 import callIcon from "../../assets/sidebar/call.png";
 import appointmentIcon from "../../assets/sidebar/Appointments.png";
@@ -29,16 +31,24 @@ const Sidebar = () => {
   ];
 
   return (
-    <div>
+    <div className="h-screen border-r-2 border-red-500">
+      {/* Logo */}
+      <div className="flex w-full items-center justify-center h-24">
+        <img src={logo} alt="" />
+      </div>
+
       {options.map((option) => (
-        <Link
+        <NavLink
           key={option.path}
           to={option.path}
-          className="flex items-center gap-3 px-3 font-semibold text-xl py-3"
+          className={({ isActive }) =>
+            `flex items-center gap-3 px-2 py-3 rounded-md
+       ${isActive ? "flex items-center rounded-full text-white transition-all duration-300" : "text-gray-600"}`
+          }
         >
           <img src={option.icon} alt="" />
           {option.name}
-        </Link>
+        </NavLink>
       ))}
     </div>
   );
