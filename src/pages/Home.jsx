@@ -6,6 +6,7 @@ import Transfer from "../assets/homeCard/arrow.png";
 import Cal from "../assets/homeCard/cal.png";
 import Missed from "../assets/homeCard/missed.png";
 import Clock from "../assets/homeCard/clock.png";
+import HomeChart from "../assets/HomeChart/HomeChart";
 
 const Home = () => {
   const cardsData = [
@@ -57,10 +58,16 @@ const Home = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-4">
-      {cardsData.map((card) => (
-        <HomeCard key={card.title} card={card} />
-      ))}
+    <div>
+      <div className="grid grid-cols-3 gap-4">
+        {cardsData.map((card) => (
+          <HomeCard key={card.title} card={card} />
+        ))}
+      </div>
+
+      <div className="mt-10">
+        <HomeChart />
+      </div>
     </div>
   );
 };
