@@ -7,6 +7,7 @@ import Cal from "../assets/homeCard/cal.png";
 import Missed from "../assets/homeCard/missed.png";
 import Clock from "../assets/homeCard/clock.png";
 import HomeChart from "../assets/HomeChart/HomeChart";
+import DashboardBottom from "../components/DashboardBottom/DashboardBottom";
 
 const Home = () => {
   const cardsData = [
@@ -68,6 +69,8 @@ const Home = () => {
       <div className="mt-10">
         <HomeChart />
       </div>
+
+      <DashboardBottom />
     </div>
   );
 };
