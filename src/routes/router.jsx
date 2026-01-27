@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home";
 import RootLayout from "../layouts/RootLayout";
 import CallLogsAndHistory from "../pages/CallLogsAndHistory";
+import Appointment from "../pages/Appointment";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
 
       {
         path: "/appointments",
-        Component: Home,
+        Component: Appointment,
       },
 
       {

@@ -60,7 +60,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {cardsData.map((card) => (
           <HomeCard key={card.title} card={card} />
         ))}
