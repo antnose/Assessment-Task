@@ -47,7 +47,7 @@ const Sidebar = () => {
           }
         >
           <img src={option.icon} alt="" />
-          {option.name}
+          <span className="hidden md:flex">{option.name}</span>
         </NavLink>
       ))}
 

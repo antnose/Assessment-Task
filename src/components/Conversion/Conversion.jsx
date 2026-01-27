@@ -4,7 +4,7 @@ import conversionTranscriptBtn from "../../assets/conversionTranscriptBtn.png";
 const Conversion = () => {
   return (
     <div>
-      <div className="flex items-center text-blue-400 font-medium text-sm px-5 py-2">
+      <div className="flex items-center text-blue-400 font-medium text-sm md:px-5 md:py-2">
         <img src={conversionTranscriptBtn} alt="" /> Conversation Transcript
       </div>
 
