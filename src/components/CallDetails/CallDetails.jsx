@@ -4,7 +4,7 @@ const CallDetails = () => {
   return (
     <div className="col-span-7 bg-[#111827] rounded-2xl border border-slate-800">
       <h2 className="p-5 text-white text-lg font-semibold border-b border-slate-800">
-        Call List
+        Call Details
       </h2>
 
       <div className="p-5">
