@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home";
 import RootLayout from "../layouts/RootLayout";
+import CallLogsAndHistory from "../pages/CallLogsAndHistory";
 
 const router = createBrowserRouter([
   {
@@ -11,14 +12,17 @@ const router = createBrowserRouter([
         index: true,
         Component: Home,
       },
+
       {
         path: "/calls",
-        Component: Home,
+        Component: CallLogsAndHistory,
       },
+
       {
         path: "/appointments",
         Component: Home,
       },
+
       {
         path: "/Settings",
         Component: Home,
