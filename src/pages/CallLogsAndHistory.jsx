@@ -5,7 +5,7 @@ import CallLogs from "../components/CallLogs/CallLogs";
 const CallLogsAndHistory = () => {
   return (
     <div>
-      <div className="mt-4">
+      <div>
         <SearchSort />
       </div>
 

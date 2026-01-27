@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
 import Sidebar from "../components/Sidebar/Sidebar";
+import Navbar from "../components/Navbar/Navbar";
 
 const RootLayout = () => {
   return (
@@ -10,6 +11,7 @@ const RootLayout = () => {
       </div>
 
       <div className="col-span-9 px-6   ">
+        <Navbar />
         <Outlet />
       </div>
     </div>
