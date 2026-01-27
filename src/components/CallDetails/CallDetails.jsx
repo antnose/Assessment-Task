@@ -1,8 +1,9 @@
 import playBtn from "../../assets/playButton.png";
+import Conversion from "../Conversion/Conversion";
 
 const CallDetails = () => {
   return (
-    <div className="col-span-7 bg-[#111827] rounded-2xl border border-slate-800">
+    <div>
       <h2 className="p-5 text-white text-lg font-semibold border-b border-slate-800">
         Call Details
       </h2>

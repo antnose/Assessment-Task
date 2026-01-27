@@ -1,5 +1,6 @@
 import CallDetails from "../CallDetails/CallDetails";
 import CallList from "../CallList/CallList";
+import Conversion from "../Conversion/Conversion";
 
 const CallLogs = () => {
   return (
@@ -8,7 +9,11 @@ const CallLogs = () => {
       <CallList />
 
       {/* Call Details */}
-      <CallDetails />
+      <div className="col-span-7 bg-[#111827] rounded-2xl border border-slate-800">
+        <CallDetails />
+
+        <Conversion />
+      </div>
     </div>
   );
 };
