@@ -46,7 +46,9 @@ const CallDetails = () => {
 
         <button className="w-full flex items-center justify-center gap-2 py-3 px-6 rounded-full border-t border-[#AD46FF]/30 bg-linear-to-r from-[#2e1a4a] via-[#3b1c5a] to-[#2e1a4a] text-[#C084FC] hover:brightness-110 transition-all shadow-inner">
           <img src={playBtn} alt="" />
-          <span className="font-medium text-lg">Play Audio Recording</span>
+          <span className="font-medium text-[14px] md:text-lg">
+            Play Audio Recording
+          </span>
         </button>
       </div>
     </div>
