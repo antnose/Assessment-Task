@@ -60,7 +60,7 @@ const CallList = () => {
   ];
 
   return (
-    <div className="col-span-5 bg-[#111827] rounded-2xl border border-slate-800 flex flex-col overflow-hidden">
+    <div className="col-span-12 md:col-span-5 bg-[#111827] rounded-2xl border border-slate-800 flex flex-col overflow-hidden">
       <h2 className="p-5 text-white text-lg font-semibold border-b border-slate-800">
         Call List
       </h2>

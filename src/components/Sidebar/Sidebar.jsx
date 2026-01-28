@@ -31,7 +31,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="border-r h-full">
+    <div className="border-r border-slate-800 h-full">
       {/* Logo */}
       <div className="flex w-full items-center justify-center h-24">
         <img src={logo} alt="" />

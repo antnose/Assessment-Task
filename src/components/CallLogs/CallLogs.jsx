@@ -6,10 +6,11 @@ const CallLogs = () => {
   return (
     <div className="grid md:grid-cols-12 gap-6 p-6 min-h-screen bg-dashboard">
       {/* Call List */}
+
       <CallList />
 
       {/* Call Details */}
-      <div className="md:col-span-7 bg-[#111827] rounded-2xl border border-slate-800">
+      <div className="col-span-12 md:col-span-7 bg-[#111827] rounded-2xl border border-slate-800">
         <CallDetails />
 
         <Conversion />
